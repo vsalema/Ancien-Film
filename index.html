@@ -13,26 +13,7 @@
 
 <body>
   
-  <style>
-.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-
-    }
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-</style>
+  
   <style>
 
 #my-div
@@ -57,15 +38,31 @@ left     : 0px;
   margin: 0; 
     background-color: black;
 }
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 </style>
 
 <body data-spy="scroll" data-target="#secondary-nav" data-offset="55">
 
-  
-  <div class="container" id="my-div">
+  <div class="container"> 
+  <div id="my-div">
 <iframe  src="https://www.elahmad.com/tv/stream_player.php?url=https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/chunklist_b1290000_slpor.m3u8" id="my-iframe" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+</div></div>
 
   
   
